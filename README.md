@@ -6,7 +6,7 @@
     mkdir ~/.termux
 
     cd ~/.termux
-    mv  ~/.termux/termux.properties  ~/.termux/termux.properties.nackup
+    mv  ~/.termux/termux.properties  ~/.termux/termux.properties.backup
 
     curl https://raw.githubusercontent.com/gsmitheidw/termux.properties/master/termux.properties > ~/.termux/termux.properties
 
